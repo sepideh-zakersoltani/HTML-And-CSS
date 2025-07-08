@@ -5,6 +5,7 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 h1 {
   font-style: italic;
@@ -56,4 +57,28 @@ article header p {
 /*
 .test {
   font-style: italic;
+}*/
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 16px solid #1098ad;
+  border-bottom: 16px solid #1098ad;
+}
+/*
+body {
+  background-color: violet;
+}*/
+/*
+ol {
+  border-left: navy solid 6px;
+  border-top: olive solid 6px;
+  border-right: aquamarine solid 6px;
+  border-bottom: yellow solid 6px;
 }*/
