@@ -82,3 +82,20 @@ ol {
   border-right: aquamarine solid 6px;
   border-bottom: yellow solid 6px;
 }*/
+/*
+.first-li {
+  font-weight: bold;
+}*/
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/*
+li:nth-child(odd) {
+  color: red;
+}*/
+article p:last-child {
+  color: red;
+}
