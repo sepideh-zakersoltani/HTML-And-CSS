@@ -96,6 +96,27 @@ li:last-child {
 li:nth-child(odd) {
   color: red;
 }*/
-article p:last-child {
+/*this won't work cause its the first child,not the last child*/
+article p:first-child {
   color: red;
 }
+
+/*styling the links  LVHA*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  text-decoration: orangered underline;
+  font-weight: bold;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/*LVHA rule is applied right here!*/
