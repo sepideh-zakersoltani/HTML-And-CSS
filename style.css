@@ -120,4 +120,20 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+/*pseudo classes have priority over elements e.g: a:link{ color: blue;} has priority over a{ color: red;}  and the color of all anchors ( the ones that have href) will be blue, not red!)*/
 /*LVHA rule is applied right here!*/
+
+/*resolving conflicts*/
+
+/* #copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green */
+/* if we add !important to this part right here, the color of the footer will be altered to green cause !imporatnt has the 1st priority over all*/
