@@ -1,3 +1,15 @@
+/* * {
+  border-top: solid 10px violet;
+} */
+
+/*  *{}  this is the universal symbol which can be applied to everything. also it has the least priority */
+
+body {
+  border-top: 10px #1098ad solid;
+  font-family: sans-serif;
+  color: #444;
+}
+/*
 h1,
 h2,
 h3,
@@ -6,7 +18,7 @@ p,
 li {
   font-family: sans-serif;
   color: #444;
-}
+}*/
 h1 {
   font-style: italic;
   font-size: 26px;
