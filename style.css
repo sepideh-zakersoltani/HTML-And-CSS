@@ -4,6 +4,10 @@
 
 /*  *{}  this is the universal symbol which can be applied to everything. also it has the least priority */
 
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   border-top: 10px #1098ad solid;
   font-family: sans-serif;
@@ -19,17 +23,27 @@ li {
   font-family: sans-serif;
   color: #444;
 }*/
+article {
+  margin-bottom: 60px;
+}
+header {
+  margin-bottom: 40px;
+}
 h1 {
   font-style: italic;
   font-size: 26px;
   text-transform: uppercase;
+  padding: 20px 40px;
 }
 h2 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 h3 {
   font-family: sans-serif;
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 h4 {
   text-align: center;
@@ -40,9 +54,16 @@ p {
   line-height: 1.5;
 
   font-size: 22px;
+  margin-bottom: 15px;
 }
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 /*font-family+ font-size+ font-style+font-weight+text-transform+text-align+text-decoration+color+background-color+border+border-top+border-bottom+list-style+line-height*/
 /*
@@ -78,11 +99,19 @@ h3 {
 }
 .main-header {
   background-color: #f7f7f7;
+  /*padding-top:20px;
+  padding-bottom: 20px;
+  padding: right 40px;
+  padding: left 40px;
+  */ /////*shorthand*////
+  padding: 20px 40px;
+  margin-bottom: 60px;
 }
 aside {
   background-color: #f7f7f7;
   border-top: 16px solid #1098ad;
   border-bottom: 16px solid #1098ad;
+  padding: 50px 0;
 }
 /*
 body {
@@ -104,6 +133,7 @@ li:first-child {
 }
 li:last-child {
   font-style: italic;
+  margin: 0;
 }
 /*
 li:nth-child(odd) {
