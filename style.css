@@ -23,6 +23,12 @@ li {
   font-family: sans-serif;
   color: #444;
 }*/
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
 article {
   margin-bottom: 60px;
 }
