@@ -40,7 +40,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   padding: 20px 40px;
-  height: 80px;
+  /* height: 80px;*/
 }
 h2 {
   font-size: 40px;
@@ -67,6 +67,7 @@ p {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /*display: inline;*/
 }
 ul,
 ol {
@@ -192,3 +193,19 @@ a:active {
 footer p {
   color: green */
 /* if we add !important to this part right here, the color of the footer will be altered to green cause !imporatnt has the 1st priority over all*/
+nav a:link {
+  /* margin: 20px;
+  background-color: orangered;
+  display: block;*/
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
+/*margin-top and margin=bottom will never be applied to inline boxes or inline elements linke anchors, images, emphasizeses, etc. only applied to block level boxes.*/
+/*If we have display:inline it means that the context only occupies the space that it needs and wont be effected by top and bottom margins or padddings*/
+/*if we have display:block it menas that the context occupies the whole width and height,width,margin-topor bottom, padding-top or bottom will also be applied to it!*/
+/*If we have diplay:inline-block it means that the contexts looks line an inline context it means that it only occupies the space that it needs but the charecteristics of it, is like a block level boxes and it bottom and top paddings or margins will be applied to it.*/
+/*images are inline-block boxes or elements and top and bottom margins and paddings and also width and height can be applied to them*/
