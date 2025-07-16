@@ -209,3 +209,5 @@ nav a:link:last-child {
 /*if we have display:block it menas that the context occupies the whole width and height,width,margin-topor bottom, padding-top or bottom will also be applied to it!*/
 /*If we have diplay:inline-block it means that the contexts looks line an inline context it means that it only occupies the space that it needs but the charecteristics of it, is like a block level boxes and it bottom and top paddings or margins will be applied to it.*/
 /*images are inline-block boxes or elements and top and bottom margins and paddings and also width and height can be applied to them*/
+
+/* hi */
