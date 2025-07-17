@@ -35,6 +35,7 @@ article {
 }
 header {
   margin-bottom: 40px;
+  position: relative;
 }
 h1 {
   font-style: italic;
@@ -108,7 +109,7 @@ h3 {
   color: #1098ad;
 }
 .main-header {
-  background-color: #f7f7f7;
+  background-color: #c12424;
   /*padding-top:20px;
   padding-bottom: 20px;
   padding: right 40px;
@@ -217,3 +218,41 @@ nav a:link:last-child {
 /*if we have display:block it menas that the context occupies the whole width and height,width,margin-topor bottom, padding-top or bottom will also be applied to it!*/
 /*If we have diplay:inline-block it means that the contexts looks line an inline context it means that it only occupies the space that it needs but the charecteristics of it, is like a block level boxes and it bottom and top paddings or margins will be applied to it.*/
 /*images are inline-block boxes or elements and top and bottom margins and paddings and also width and height can be applied to them*/
+/* FLOAT */
+button {
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+p::first-line {
+  /* color: red; */
+}
+h3 + p::first-line {
+  /* color: violet; */
+}
+h2::after {
+  content: "TOP";
+  font-size: 16px;
+  color: #444;
+  background-color: #ffe70e;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+h2 {
+  /* background-color: violet; */
+  position: relative;
+}
+h3 + p::first-letter {
+  /* color: navy; */
+}
