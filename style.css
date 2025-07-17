@@ -12,6 +12,7 @@ body {
   border-top: 10px #1098ad solid;
   font-family: sans-serif;
   color: #444;
+  position: relative;
 }
 /*
 h1,
@@ -203,6 +204,13 @@ nav a:link {
 }
 nav a:link:last-child {
   margin-right: 0;
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 /*margin-top and margin=bottom will never be applied to inline boxes or inline elements linke anchors, images, emphasizeses, etc. only applied to block level boxes.*/
 /*If we have display:inline it means that the context only occupies the space that it needs and wont be effected by top and bottom margins or padddings*/
