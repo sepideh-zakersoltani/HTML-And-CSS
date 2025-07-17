@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
   border: solid black 4px;
   width: 825px;
-  margin: 100px auto;
+  margin: 500px auto;
 }
 h1 {
   background-color: #f7f7f7;
@@ -16,6 +16,7 @@ h1 {
   text-align: center;
   padding: 15px;
   font-weight: bold;
+  position: relative;
 }
 .price {
   font-weight: bold;
@@ -31,9 +32,12 @@ h1 {
 }
 a:link {
   color: black;
+  display: inline-block;
+  padding-bottom: 20px;
 }
 a:visited {
   color: black;
+  display: inline-block;
 }
 a:hover,
 a:active {
@@ -51,6 +55,7 @@ button:hover {
   color: black;
   background-color: white;
   border-top: 4px black solid;
+  cursor: pointer;
 }
 .dress {
   margin-bottom: 5px;
@@ -60,7 +65,7 @@ button:hover {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 15px;
-  margin-top: 35px;
+  margin-top: 20px;
   padding-bottom: 20px;
 }
 ul li:first-child {
@@ -73,4 +78,57 @@ li {
 }
 ul {
   list-style: square;
+}
+h1::after {
+  content: "sale";
+  color: white;
+  background-color: #ec2f2f;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 7px 15 px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+}
+
+.p1 {
+  display: inline;
+  color: black;
+  background-color: black;
+  padding: 0 1px;
+}
+.p2 {
+  display: inline;
+  background-color: #2f6ee2;
+  color: #2f6ee2;
+  padding: 0 1px;
+}
+.p3 {
+  display: inline;
+  background-color: red;
+  color: red;
+  padding: 0 1px;
+}
+.p4 {
+  display: inline;
+  color: yellow;
+  background-color: yellow;
+  padding: 0 1px;
+}
+.p5 {
+  display: inline;
+  color: #90cc20;
+  background-color: #90cc20;
+  padding: 0 1px;
+}
+.p6 {
+  display: inline;
+  color: brown;
+  background-color: brown;
+  padding: 0 1px;
+}
+.ps {
+  margin-right: 20px;
 }
