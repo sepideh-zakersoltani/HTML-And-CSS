@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   border-top: 10px #1098ad solid;
@@ -59,6 +60,7 @@ h4 {
   text-transform: uppercase;
   font-size: 20px;
   /* background-color: violet; */
+  margin-bottom: 30px;
 }
 p {
   line-height: 1.5;
@@ -73,8 +75,12 @@ li {
 }
 ul,
 ol {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-bottom: 20px;
+}
+.related {
+  margin-left: 0;
+  list-style: none;
 }
 /*font-family+ font-size+ font-style+font-weight+text-transform+text-align+text-decoration+color+background-color+border+border-top+border-bottom+list-style+line-height*/
 /*
@@ -123,8 +129,9 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 40;
-  width: 350px;
+  padding: 50px 40px;
+  width: 300px;
+  box-sizing: border-box;
 }
 /*
 body {
