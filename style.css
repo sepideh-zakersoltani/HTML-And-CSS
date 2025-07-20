@@ -289,3 +289,17 @@ nav {
   float: both;
   display: block;
 }
+article {
+  /* background-color: violet; */
+  width: 825px;
+  float: left;
+}
+aside {
+  /* background-color: navy; */
+  width: 300px;
+  float: right;
+}
+footer {
+  /* background-color: aqua; */
+  clear: both;
+}
