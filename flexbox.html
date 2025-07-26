@@ -43,21 +43,29 @@
         display: flex;
         align-items: center /*flex-start*/;
         justify-content: /*center*/ flex-start;
-        gap: 30px;
+        gap: 10px;
       }
       .el {
         /* margin-right: 30px; */
+        /*Flex-grow:0;
+        Flex-shrink:1;
+        Flex-basis:auto;*/
+        /* flex-shrink: 1; */
+        /* flex: 0 0 200px
+         */
+        flex: 1;
       }
       .el--1 {
         align-self: flex-start;
         /* order: 2; */
+        /* flex: 6; */
       }
       .el--5 {
         align-self: stretch;
-        order: 1;
+        /* order: 1; */
       }
       .el--6 {
-        order: -1;
+        /* order: -1; */
       }
     </style>
   </head>
@@ -68,7 +76,7 @@
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
-      <div class="el el--6">languages</div>
+      <!-- <div class="el el--6">languages</div> -->
       <!-- <div class="el el--7">to</div>
       <div class="el el--8">learn</div> -->
     </div>
