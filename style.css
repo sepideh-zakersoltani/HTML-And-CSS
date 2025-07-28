@@ -130,7 +130,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
-  width: 300px;
+  width: 100%;
   box-sizing: border-box;
 }
 /*
@@ -208,7 +208,7 @@ nav a:link {
   background-color: orangered;
   display: block;*/
   margin-right: 30px;
-  margin-top: 10px;
+
   display: inline-block;
 }
 nav a:link:last-child {
@@ -227,6 +227,7 @@ nav a:link:last-child {
 /*If we have diplay:inline-block it means that the contexts looks line an inline context it means that it only occupies the space that it needs but the charecteristics of it, is like a block level boxes and it bottom and top paddings or margins will be applied to it.*/
 /*images are inline-block boxes or elements and top and bottom margins and paddings and also width and height can be applied to them*/
 /* FLOAT */
+
 button {
   font-size: 22px;
   padding: 20px;
@@ -264,8 +265,8 @@ h2 {
 h3 + p::first-letter {
   /* color: navy; */
 }
-
-/*Float Layout*/
+/*
+/*Float Layout
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -297,16 +298,55 @@ nav {
   display: block;
 }
 article {
-  /* background-color: violet; */
+  /* background-color: violet; 
   width: 825px;
   float: left;
 }
 aside {
-  /* background-color: navy; */
+  /* background-color: navy; 
   width: 300px;
   float: right;
 }
 footer {
-  /* background-color: aqua; */
+  /* background-color: aqua; 
   clear: both;
+}
+*/
+
+/*FlexBox*/
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.related-post {
+  display: flex;
+  align-items: center;
+  /* color: rgb(212, 31, 212); */
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  /* background-color: aqua; */
+  margin-bottom: 5px;
+  display: inline-block;
 }
