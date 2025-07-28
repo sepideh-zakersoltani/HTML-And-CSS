@@ -350,3 +350,18 @@ footer {
   margin-bottom: 5px;
   display: inline-block;
 }
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+aside {
+  flex: 0 0 300px;
+}
+
+article {
+  /* flex: 0 0 825px;
+   */
+  flex: 1;
+  margin-bottom: 0;
+}
