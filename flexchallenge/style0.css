@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.bordering {
+  margin: 50px auto;
+  border: solid black 4px;
+  width: 825px;
+  font-family: sans-serif;
+}
+.main-heading {
+  background-color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 23px;
+  padding: 15px;
+  font-weight: bold;
+  position: relative;
+}
+.price {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.shipping {
+  font-size: 11px;
+  color: #595959;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: 150px;
+  right: 250px;
+}
+.link {
+  color: black;
+  display: block;
+}
+a:link,
+a:visited {
+  color: black;
+  padding-bottom: 20px;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.product {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-top: 35px;
+}
+ul {
+  list-style: square;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+  border-top: solid black 4px;
+  border-left: black solid 4px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-top: solid black 4px;
+}
+h1::after {
+  content: "sale";
+  text-transform: uppercase;
+  background-color: red;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 10px;
+}
+.dressing {
+  margin-bottom: 10px;
+}
+
+.product {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+ul li:first-child {
+  margin-top: 10px;
+}
+li {
+  line-height: 1;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+.black {
+  display: inline-block;
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  color: black;
+  margin-right: 10px;
+}
+
+.blue {
+  display: inline-block;
+  background-color: blue;
+  height: 15px;
+  width: 15px;
+  color: blue;
+  margin-right: 10px;
+}
+
+.red {
+  display: inline-block;
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  color: red;
+  margin-right: 10px;
+}
+
+.yellow {
+  display: inline-block;
+  background-color: yellow;
+  height: 15px;
+  width: 15px;
+  color: yellow;
+  margin-right: 10px;
+}
+
+.green {
+  display: inline-block;
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  color: green;
+  margin-right: 10px;
+}
+
+.brown {
+  display: inline-block;
+  background-color: brown;
+  height: 15px;
+  width: 15px;
+  color: brown;
+  margin-right: 10px;
+}
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+.box1 {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  flex: 0 1 360px;
+  align-self: flex-end;
+  margin-top: 30px;
+}
+.color {
+  margin-top: 10px;
+}
+.box2 {
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
