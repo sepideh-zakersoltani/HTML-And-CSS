@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .bordering {
   margin: 50px auto;
@@ -28,9 +29,9 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
-  position: absolute;
+  /* position: absolute;
   top: 150px;
-  right: 250px;
+  right: 250px; */
 }
 .link {
   color: black;
@@ -169,6 +170,7 @@ li {
   flex: 0 1 360px;
   align-self: flex-end;
   margin-top: 30px;
+  /* width: 243px; */
 }
 .color {
   margin-top: 10px;
@@ -176,4 +178,10 @@ li {
 .box2 {
   margin-bottom: 40px;
   margin-left: 30px;
+  /* width: 243px; */
+}
+.box22 {
+  display: flex;
+  text-align: center;
+  gap: 90px;
 }
