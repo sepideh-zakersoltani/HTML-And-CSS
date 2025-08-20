@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
-.bordering {
+M .bordering {
   border: solid rgb(0, 0, 0) 4px;
   font-family: sans-serif;
   width: 825px;
