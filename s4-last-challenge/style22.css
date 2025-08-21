@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: sans-serif;
+  width: 825px;
+  border: solid 4px black;
+  margin: 100px auto;
+  display: grid;
+  /* column-gap: 45px; */
+  grid-template-columns: 250px 280px 280px;
+}
+.main-header {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 23px;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 15px;
+  grid-column: 1 / -1;
+  position: relative;
+}
+.price {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.shipping {
+  color: #595959;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 33px;
+  right: 10px;
+}
+a:link,
+a:visited {
+  color: black;
+  padding-bottom: 20px;
+  display: block;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  padding-bottom: 20px;
+  display: block;
+}
+.black {
+  height: 17px;
+  background-color: black;
+  width: 15px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.blue {
+  height: 17px;
+  display: inline-block;
+  background-color: blue;
+  width: 15px;
+  margin-right: 10px;
+}
+.red {
+  height: 17px;
+  display: inline-block;
+  background-color: red;
+  width: 15px;
+  margin-right: 10px;
+}
+.yellow {
+  height: 17px;
+  display: inline-block;
+  background-color: yellow;
+  width: 15px;
+  margin-right: 10px;
+}
+.green {
+  height: 17px;
+  display: inline-block;
+  background-color: green;
+  width: 15px;
+  margin-right: 10px;
+}
+.brown {
+  height: 17px;
+  display: inline-block;
+  background-color: brown;
+  width: 15px;
+}
+.product {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+ul {
+  list-style: square;
+}
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 821px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 4px solid black;
+}
+.box-1 {
+  width: 240px;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.dressing {
+  margin-bottom: 10px;
+}
+.box-2 {
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+h1::after {
+  content: "sale";
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  top: -17px;
+  left: -34px;
+  position: absolute;
+}
